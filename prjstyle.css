@@ -94,7 +94,8 @@ header {
     }
 }
 .wrapper{
-    position: relative;
+    position:relative ;
+    top: 65px;
     width: 400px;
     height: 440px;
     background: transparent;
@@ -103,11 +104,12 @@ header {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0 ,  0, .5);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: none;
+    align-items: none;
     overflow: hidden;
     transform: scale(0);
     transition:transform .5s ease, height .2s ease;
+    
 }
 .wrapper.active-popup{
     transform: scale(1);
