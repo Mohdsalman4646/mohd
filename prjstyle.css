@@ -438,3 +438,25 @@ h2 {
     color: none;
 
 }
+
+@media  (max-width:400px) {
+          .logo{
+            position: relative;
+            right: 95px;
+           top: -10px;
+          }
+          .menu-toggle{
+            position: relative;
+            right: 60px;
+            top: -5px;
+          }
+          .btnLogin-popup{
+            position: relative;
+            right: 50px;
+          }
+          .wrapper{
+            height: auto;
+            width: auto;
+          }
+}
+
